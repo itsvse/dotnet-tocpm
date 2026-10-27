@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net9.0</TargetFramework>
+		<TargetFrameworks>net9.0;net10.0</TargetFrameworks>
 		<AssemblyName>tocpm</AssemblyName>
 		<RootNamespace>devdeer.tools.tocpm</RootNamespace>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-        <Version>1.4.0</Version>
-		<PackageId>devdeer.tools.tocpm</PackageId>
+        <Version>1.4.1</Version>
+		<PackageId>devdeer.tools.tocpm-plus</PackageId>
 		<Title>Nuget CPM converter</Title>
 		<Authors>DEVDEER GmbH</Authors>
 		<Description>This dotnet tool reads all csproj-files under a given folder and converts them to use the Nuget CPM instead of implicit versionning inside the csproj.  </Description>
 		<Copyright>2025 DEVDEER GmbH</Copyright>
-		<PackageProjectUrl>https://github.com/DEVDEER/dotnet-tocpm</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/itsvse/dotnet-tocpm</PackageProjectUrl>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/DEVDEER/dotnet-tocpm</RepositoryUrl>
+		<RepositoryUrl>https://github.com/itsvse/dotnet-tocpm</RepositoryUrl>
 		<RepositoryType>Github</RepositoryType>
 		<PackageTags>dotnet,tool,nuget,CPM</PackageTags>
 		<PackageReleaseNotes>
@@ -32,11 +32,11 @@
 		<PackageOutputPath>./nupkg</PackageOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Update="icon.png">
+		<None Include="icon.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
-        <None Update="README.md">
+        <None Include="README.md">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>

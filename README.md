@@ -1,7 +1,7 @@
 [![CI](https://github.com/DEVDEER/dotnet-tocpm/actions/workflows/ci.yml/badge.svg)](https://github.com/DEVDEER/dotnet-tocpm/actions/workflows/ci.yml)
 ![](https://img.shields.io/nuget/v/devdeer.tools.tocpm)
 
-# dotnet-tocpm
+# dotnet-tocpm-plus
 
 Dotnet global tool to convert solutions to the [Nuget CPM](https://devblogs.microsoft.com/nuget/introducing-central-package-management/).
 

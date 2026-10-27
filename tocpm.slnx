@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Ui/">
+    <Project Path="src/Ui/Ui.ConsoleApp/Ui.ConsoleApp.csproj" />
+  </Folder>
+</Solution>

@@ -1,4 +1,4 @@
-# dotnet-tocpm
+# dotnet-tocpm-plus
 
 Dotnet global tool to convert solutions to the [Nuget CPM](https://devblogs.microsoft.com/nuget/introducing-central-package-management/).
 
@@ -15,7 +15,7 @@ The tool requires the .NET 9 runtime (or SDK) installed on the machine.
 Use the following command to install `dotnet-tocpm`:
 
 ```shell
-dotnet tool install -g devdeer.tools.tocpm
+dotnet tool install -g devdeer.tools.tocpm-plus
 ```
 
 After this command ran you can check the success by running:
