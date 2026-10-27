@@ -26,7 +26,8 @@ The tool requires the .NET 9 runtime (or SDK) installed on the machine.
 Use the following command to install `dotnet-tocpm`:
 
 ```shell
-dotnet tool install -g devdeer.tools.tocpm
+dotnet tool uninstall --global devdeer.tools.tocpm
+dotnet tool install -g devdeer.tools.tocpm-plus
 ```
 
 After this command ran you can check the success by running:
